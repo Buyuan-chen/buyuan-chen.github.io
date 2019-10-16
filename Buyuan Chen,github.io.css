@@ -1,0 +1,262 @@
+body {
+  background: #f2f2f2;
+  overflow-x: hidden;
+}
+.box ul,
+.box li {
+  list-style: initial;
+}
+@media screen and (min-width: 980px) {
+  .head {
+    position: relative;
+  }
+  .head img {
+    width: 100%;
+  }
+  .head .tit1 {
+    position: absolute;
+    font-size: 5vw;
+    left: 11vw;
+    top: 13vw;
+    color: #f3ccc5;
+  }
+  .head .smalltxt {
+    position: absolute;
+    left: 11.6vw;
+    top: 27vw;
+    font-size: 1.8vw;
+    color: #f3ccc5;
+  }
+  .head .frtxt {
+    position: absolute;
+    left: 35vw;
+    top: 21vw;
+    width: 400px;
+  }
+  .head .frtxt .tit {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .head .frtxt .desc {
+    font-size: 16px;
+  }
+  .head .frtxt .tit,
+  .head .frtxt .desc {
+    color: #fff;
+  }
+  .box h3 {
+    font-size: 14px;
+    color: #506e88;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  .box p {
+    color: #333;
+    font-size: 12px;
+    font-style: oblique;
+  }
+  .box .nomal {
+    font-style: normal;
+  }
+  #content {
+    width: 900px;
+    margin: auto;
+    padding-top: 120px;
+  }
+  #content .conleft {
+    width: 20%;
+  }
+  #content .conright {
+    width: 70%;
+    margin-left: 10%;
+  }
+  #content .conright .time {
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  #content .titleline h2 {
+    color: #506e88;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 4px solid #ebcec0;
+    font-weight: bold;
+  }
+  #content .conleft .con {
+    padding-bottom: 15px;
+  }
+  #content .conleft .con em {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 14px;
+  }
+  #content .conleft .con .txt {
+    width: 140px;
+  }
+  #content .conleft .con .txt .tit {
+    color: #506e88;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #content .conleft .con .txt .desc {
+    color: #333;
+    font-size: 12px;
+  }
+  #content .conleft .con.last {
+    padding-bottom: 10px;
+  }
+  #content .conleft .address em {
+    background: transparent url('../images/address.png') no-repeat top scroll;
+    background-size: 25px 25px;
+  }
+  #content .conleft .phone em {
+    background: transparent url('../images/phone.png') no-repeat top scroll;
+    background-size: 25px 25px;
+  }
+  #content .conleft .email em {
+    background: transparent url('../images/email.png') no-repeat top scroll;
+    background-size: 25px 25px;
+  }
+  #content .box ul {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #content .box ul li {
+    line-height: 30px;
+    font-size: 12px;
+    color: #333;
+  }
+}
+@media screen and (max-width: 979px) {
+  .head {
+    position: relative;
+  }
+  .head img {
+    width: 100%;
+  }
+  .head .tit1 {
+    position: absolute;
+    font-size: 5vw;
+    left: 11vw;
+    top: 13vw;
+    color: #f3ccc5;
+  }
+  .head .smalltxt {
+    position: absolute;
+    left: 11.6vw;
+    top: 27vw;
+    font-size: 1.7vw;
+    color: #f3ccc5;
+  }
+  .head .frtxt {
+    position: absolute;
+    left: 33vw;
+    top: 21vw;
+    width: 66%;
+  }
+  .head .frtxt .tit {
+    font-size: 2.6vw;
+  }
+  .head .frtxt .desc {
+    font-size: 2.4vw;
+  }
+  .head .frtxt .tit,
+  .head .frtxt .desc {
+    color: #fff;
+  }
+  #content {
+    margin: 0 30px;
+    margin: auto;
+    padding-top: 30px;
+  }
+  #content .conleft {
+    margin: 0 30px;
+  }
+  #content .conright {
+    margin: 0 30px;
+    float: none;
+    display: block;
+  }
+  #content .conright h3 {
+    font-size: 14px;
+    color: #506e88;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  #content .conright .time {
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  #content .titleline h2 {
+    color: #506e88;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 4px solid #ebcec0;
+    font-weight: bold;
+  }
+  #content .conleft {
+    float: none;
+    margin-top: 30px;
+  }
+  #content .conleft .box h3 {
+    font-size: 14px;
+    color: #506e88;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  #content .conleft .box p {
+    color: #333;
+    font-size: 12px;
+    font-style: oblique;
+  }
+  #content .conleft .box .nomal {
+    font-style: normal;
+  }
+  #content .conleft .con {
+    padding-bottom: 15px;
+  }
+  #content .conleft .con em {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 14px;
+  }
+  #content .conleft .con .txt {
+    width: 140px;
+  }
+  #content .conleft .con .txt .tit {
+    color: #506e88;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #content .conleft .con .txt .desc {
+    color: #333;
+    font-size: 12px;
+  }
+  #content .conleft .con.last {
+    padding-bottom: 10px;
+  }
+  #content .conleft .address em {
+    background: transparent url('../images/address.png') no-repeat top scroll;
+    background-size: 25px 25px;
+  }
+  #content .conleft .phone em {
+    background: transparent url('../images/phone.png') no-repeat top scroll;
+    background-size: 25px 25px;
+  }
+  #content .conleft .email em {
+    background: transparent url('../images/email.png') no-repeat top scroll;
+    background-size: 25px 25px;
+  }
+  #content .box ul {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #content .box ul li {
+    line-height: 30px;
+    font-size: 12px;
+    color: #333;
+  }
+}
